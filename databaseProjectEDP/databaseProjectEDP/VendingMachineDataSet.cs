@@ -1,0 +1,7 @@
+﻿namespace databaseProjectEDP
+{
+}
+
+namespace databaseProjectEDP
+{
+}
