@@ -1,6 +1,6 @@
 ﻿namespace databaseProjectEDP
 {
-    partial class Form1
+    partial class FormManageStock
     {
         /// <summary>
         ///  Required designer variable.

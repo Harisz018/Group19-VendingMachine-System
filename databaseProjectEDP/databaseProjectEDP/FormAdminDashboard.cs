@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace databaseProjectEDP
 {
-    public partial class AdminForm : Form
+    public partial class FormAdminDashboard : Form
     {
-        public AdminForm()
+        public FormAdminDashboard()
         {
             InitializeComponent();
         }

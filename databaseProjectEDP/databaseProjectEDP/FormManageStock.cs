@@ -1,8 +1,8 @@
 namespace databaseProjectEDP
 {
-    public partial class Form1 : Form
+    public partial class FormManageStock : Form
     {
-        public Form1()
+        public FormManageStock()
         {
             InitializeComponent();
         }
