@@ -27,7 +27,7 @@ namespace databaseProjectEDP
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Adding " + txtProductName.Text + " to database...");
+            
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
@@ -42,9 +42,12 @@ namespace databaseProjectEDP
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            txtProductName.Clear();
-            txtPrice.Clear();
-            txtStock.Clear();
+         
+        }
+
+        private void FormAdminDashboard_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -28,18 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            label2 = new Label();
             lblTitle = new Label();
+            label1 = new Label();
+            label3 = new Label();
             txtAdminID = new TextBox();
+            label4 = new Label();
             txtPassword = new TextBox();
             chkRemember = new CheckBox();
             btnLogin = new Button();
             pictureBox1 = new PictureBox();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Arial Rounded MT Bold", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(321, 122);
+            label2.Name = "label2";
+            label2.Size = new Size(162, 15);
+            label2.TabIndex = 7;
+            label2.Text = "Please login to continue";
             // 
             // lblTitle
             // 
@@ -54,12 +64,42 @@
             lblTitle.Text = "UNIVEND";
             lblTitle.Click += lblTitle_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(314, 91);
+            label1.Name = "label1";
+            label1.Size = new Size(169, 31);
+            label1.TabIndex = 6;
+            label1.Text = "ADMIN LOGIN";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Arial Rounded MT Bold", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(267, 154);
+            label3.Name = "label3";
+            label3.Size = new Size(65, 15);
+            label3.TabIndex = 8;
+            label3.Text = "Admin ID";
+            // 
             // txtAdminID
             // 
             txtAdminID.Location = new Point(267, 172);
             txtAdminID.Name = "txtAdminID";
             txtAdminID.Size = new Size(289, 27);
             txtAdminID.TabIndex = 1;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Arial Rounded MT Bold", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(267, 210);
+            label4.Name = "label4";
+            label4.Size = new Size(71, 15);
+            label4.TabIndex = 9;
+            label4.Text = "Password";
             // 
             // txtPassword
             // 
@@ -89,6 +129,7 @@
             btnLogin.TabIndex = 4;
             btnLogin.Text = "LOGIN";
             btnLogin.UseVisualStyleBackColor = false;
+            btnLogin.Click += btnLogin_Click;
             // 
             // pictureBox1
             // 
@@ -97,50 +138,10 @@
             pictureBox1.Image = Properties.Resources.Vending;
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(209, 450);
+            pictureBox1.Size = new Size(228, 450);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(314, 91);
-            label1.Name = "label1";
-            label1.Size = new Size(169, 31);
-            label1.TabIndex = 6;
-            label1.Text = "ADMIN LOGIN";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Arial Rounded MT Bold", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(321, 122);
-            label2.Name = "label2";
-            label2.Size = new Size(162, 15);
-            label2.TabIndex = 7;
-            label2.Text = "Please login to continue";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Arial Rounded MT Bold", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(267, 154);
-            label3.Name = "label3";
-            label3.Size = new Size(65, 15);
-            label3.TabIndex = 8;
-            label3.Text = "Admin ID";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Arial Rounded MT Bold", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(267, 210);
-            label4.Name = "label4";
-            label4.Size = new Size(71, 15);
-            label4.TabIndex = 9;
-            label4.Text = "Password";
             // 
             // FormAdminLogin
             // 
@@ -170,15 +171,15 @@
 
         #endregion
 
+        private Label label2;
         private Label lblTitle;
+        private Label label1;
+        private Label label3;
         private TextBox txtAdminID;
+        private Label label4;
         private TextBox txtPassword;
         private CheckBox chkRemember;
         private Button btnLogin;
         private PictureBox pictureBox1;
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
     }
 }
