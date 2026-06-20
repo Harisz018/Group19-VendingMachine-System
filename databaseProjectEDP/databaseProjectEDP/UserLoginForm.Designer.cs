@@ -46,7 +46,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.machine;
-            pictureBox1.Location = new Point(-8, -14);
+            pictureBox1.Location = new Point(-8, 9);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(375, 466);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -69,14 +69,13 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft YaHei UI", 26F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.Purple;
+            label1.ForeColor = Color.Indigo;
             label1.Location = new Point(415, 53);
             label1.Name = "label1";
             label1.Size = new Size(283, 69);
             label1.TabIndex = 2;
             label1.Text = "UNIVEND";
             label1.TextAlign = ContentAlignment.TopCenter;
-            label1.Click += this.label1_Click;
             // 
             // sloganLbl
             // 
@@ -88,7 +87,6 @@
             sloganLbl.Size = new Size(260, 21);
             sloganLbl.TabIndex = 3;
             sloganLbl.Text = "Your Campus Favourite Machine";
-            sloganLbl.Click += this.sloganLbl_Click;
             // 
             // detailsLbl
             // 
@@ -150,15 +148,15 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(405, 182);
             panel1.TabIndex = 9;
-            panel1.Paint += this.panel1_Paint;
             // 
             // startBtn
             // 
             startBtn.BackColor = Color.Purple;
+            startBtn.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             startBtn.ForeColor = Color.White;
-            startBtn.Location = new Point(448, 368);
+            startBtn.Location = new Point(422, 365);
             startBtn.Name = "startBtn";
-            startBtn.Size = new Size(219, 58);
+            startBtn.Size = new Size(276, 75);
             startBtn.TabIndex = 10;
             startBtn.Text = "START BUTTON";
             startBtn.UseVisualStyleBackColor = false;
@@ -169,7 +167,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.AliceBlue;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 475);
             Controls.Add(startBtn);
             Controls.Add(panel1);
             Controls.Add(sloganLbl);

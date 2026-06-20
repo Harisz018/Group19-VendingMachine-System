@@ -30,7 +30,6 @@ namespace databaseProjectEDP
             if (nameTxtBx.Text == "" || matricTxtBx.Text == "")
             { MessageBox.Show("Please fill in all fields");
                 return;
-
             }
         }
     }
