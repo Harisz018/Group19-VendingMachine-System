@@ -66,6 +66,29 @@ namespace databaseProjectEDP.Properties {
         internal static System.Drawing.Bitmap machine {
             get {
                 object obj = ResourceManager.GetObject("machine", resourceCulture);
+        internal static System.Drawing.Bitmap Vending {
+            get {
+                object obj = ResourceManager.GetObject("Vending", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap VendingMachine {
+            get {
+                object obj = ResourceManager.GetObject("VendingMachine", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap VendingMachine_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("VendingMachine-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
