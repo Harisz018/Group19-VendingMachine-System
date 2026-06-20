@@ -63,36 +63,9 @@ namespace databaseProjectEDP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap beauty {
+        internal static System.Drawing.Bitmap machine {
             get {
-                object obj = ResourceManager.GetObject("beauty", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap food {
-            get {
-                object obj = ResourceManager.GetObject("food", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap medication {
-            get {
-                object obj = ResourceManager.GetObject("medication", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
+                object obj = ResourceManager.GetObject("machine", resourceCulture);
         internal static System.Drawing.Bitmap Vending {
             get {
                 object obj = ResourceManager.GetObject("Vending", resourceCulture);
