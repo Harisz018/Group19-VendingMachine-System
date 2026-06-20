@@ -14,5 +14,24 @@ namespace databaseProjectEDP
         {
             InitializeComponent();
         }
+
+        private void welcomeLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void matricTxtBx_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void startBtn_Click_1(object sender, EventArgs e)
+        {
+            if (nameTxtBx.Text == "" || matricTxtBx.Text == "")
+            { MessageBox.Show("Please fill in all fields");
+                return;
+
+            }
+        }
     }
 }
