@@ -12,6 +12,7 @@ namespace databaseProjectEDP
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new FormLoginAdmin());
+            Application.Run(new UserLoginForm());
         }
     }
 }

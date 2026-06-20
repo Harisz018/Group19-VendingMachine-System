@@ -63,6 +63,9 @@ namespace databaseProjectEDP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap machine {
+            get {
+                object obj = ResourceManager.GetObject("machine", resourceCulture);
         internal static System.Drawing.Bitmap Vending {
             get {
                 object obj = ResourceManager.GetObject("Vending", resourceCulture);
