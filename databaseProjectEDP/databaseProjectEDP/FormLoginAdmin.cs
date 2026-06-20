@@ -9,9 +9,9 @@ using Microsoft.Data.SqlClient;
 
 namespace databaseProjectEDP
 {
-    public partial class FormAdminLogin : Form
+    public partial class FormLoginAdmin : Form
     {
-        public FormAdminLogin()
+        public FormLoginAdmin()
         {
             InitializeComponent();
         }
@@ -64,6 +64,13 @@ namespace databaseProjectEDP
                 txtPassword.Clear();
                 txtAdminID.Focus();
             }
+        }
+
+        private void lnkRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormRegisterAdmin frm = new FormRegisterAdmin();
+            frm.Show();
+            this.Hide();
         }
     }
 }

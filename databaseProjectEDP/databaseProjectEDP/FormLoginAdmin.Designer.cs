@@ -1,6 +1,6 @@
 ﻿namespace databaseProjectEDP
 {
-    partial class FormAdminLogin
+    partial class FormLoginAdmin
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label2 = new Label();
             lblTitle = new Label();
-            label1 = new Label();
             label3 = new Label();
             txtAdminID = new TextBox();
             label4 = new Label();
@@ -38,41 +36,25 @@
             chkRemember = new CheckBox();
             btnLogin = new Button();
             pictureBox1 = new PictureBox();
+            lnkRegister = new LinkLabel();
+            label5 = new Label();
+            label2 = new Label();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Arial Rounded MT Bold", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(321, 122);
-            label2.Name = "label2";
-            label2.Size = new Size(162, 15);
-            label2.TabIndex = 7;
-            label2.Text = "Please login to continue";
             // 
             // lblTitle
             // 
             lblTitle.AutoSize = true;
             lblTitle.BackColor = Color.White;
-            lblTitle.Font = new Font("Arial Rounded MT Bold", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTitle.Font = new Font("Bodoni MT", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTitle.ForeColor = Color.DarkViolet;
-            lblTitle.Location = new Point(307, 45);
+            lblTitle.Location = new Point(257, 27);
             lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(208, 46);
+            lblTitle.Size = new Size(195, 48);
             lblTitle.TabIndex = 0;
             lblTitle.Text = "UNIVEND";
             lblTitle.Click += lblTitle_Click;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(314, 91);
-            label1.Name = "label1";
-            label1.Size = new Size(169, 31);
-            label1.TabIndex = 6;
-            label1.Text = "ADMIN LOGIN";
             // 
             // label3
             // 
@@ -80,15 +62,15 @@
             label3.Font = new Font("Arial Rounded MT Bold", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.Location = new Point(267, 154);
             label3.Name = "label3";
-            label3.Size = new Size(65, 15);
+            label3.Size = new Size(74, 15);
             label3.TabIndex = 8;
-            label3.Text = "Admin ID";
+            label3.Text = "Username";
             // 
             // txtAdminID
             // 
             txtAdminID.Location = new Point(267, 172);
             txtAdminID.Name = "txtAdminID";
-            txtAdminID.Size = new Size(289, 27);
+            txtAdminID.Size = new Size(261, 27);
             txtAdminID.TabIndex = 1;
             // 
             // label4
@@ -105,8 +87,10 @@
             // 
             txtPassword.Location = new Point(267, 229);
             txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(289, 27);
+            txtPassword.PasswordChar = '*';
+            txtPassword.Size = new Size(261, 27);
             txtPassword.TabIndex = 2;
+            txtPassword.UseSystemPasswordChar = true;
             // 
             // chkRemember
             // 
@@ -125,7 +109,7 @@
             btnLogin.ForeColor = Color.White;
             btnLogin.Location = new Point(267, 321);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(289, 45);
+            btnLogin.Size = new Size(261, 45);
             btnLogin.TabIndex = 4;
             btnLogin.Text = "LOGIN";
             btnLogin.UseVisualStyleBackColor = false;
@@ -143,16 +127,59 @@
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
             // 
-            // FormAdminLogin
+            // lnkRegister
+            // 
+            lnkRegister.AutoSize = true;
+            lnkRegister.Location = new Point(432, 369);
+            lnkRegister.Name = "lnkRegister";
+            lnkRegister.Size = new Size(96, 20);
+            lnkRegister.TabIndex = 10;
+            lnkRegister.TabStop = true;
+            lnkRegister.Text = "Register here";
+            lnkRegister.LinkClicked += lnkRegister_LinkClicked;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label5.Location = new Point(267, 369);
+            label5.Name = "label5";
+            label5.Size = new Size(159, 20);
+            label5.TabIndex = 11;
+            label5.Text = "Don't have an account?";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Arial Rounded MT Bold", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(267, 116);
+            label2.Name = "label2";
+            label2.Size = new Size(162, 15);
+            label2.TabIndex = 7;
+            label2.Text = "Please login to continue";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Arial Rounded MT Bold", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(267, 75);
+            label1.Name = "label1";
+            label1.Size = new Size(135, 21);
+            label1.TabIndex = 12;
+            label1.Text = "ADMIN LOGIN";
+            // 
+            // FormLoginAdmin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
+            Controls.Add(label5);
+            Controls.Add(lnkRegister);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(btnLogin);
             Controls.Add(chkRemember);
@@ -161,7 +188,7 @@
             Controls.Add(lblTitle);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
-            Name = "FormAdminLogin";
+            Name = "FormLoginAdmin";
             Text = "FormAdminLogin";
             Load += FormAdminLogin_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -170,10 +197,7 @@
         }
 
         #endregion
-
-        private Label label2;
         private Label lblTitle;
-        private Label label1;
         private Label label3;
         private TextBox txtAdminID;
         private Label label4;
@@ -181,5 +205,9 @@
         private CheckBox chkRemember;
         private Button btnLogin;
         private PictureBox pictureBox1;
+        private LinkLabel lnkRegister;
+        private Label label5;
+        private Label label2;
+        private Label label1;
     }
 }
