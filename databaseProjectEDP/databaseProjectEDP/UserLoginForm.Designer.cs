@@ -63,7 +63,6 @@
             welcomeLbl.Size = new Size(152, 27);
             welcomeLbl.TabIndex = 1;
             welcomeLbl.Text = "WELCOME TO";
-            welcomeLbl.Click += welcomeLbl_Click;
             // 
             // label1
             // 
@@ -116,6 +115,7 @@
             nameTxtBx.Name = "nameTxtBx";
             nameTxtBx.Size = new Size(209, 31);
             nameTxtBx.TabIndex = 6;
+            nameTxtBx.TextChanged += nameTxtBx_TextChanged;
             // 
             // matricLbl
             // 
@@ -134,11 +134,10 @@
             matricTxtBx.Name = "matricTxtBx";
             matricTxtBx.Size = new Size(209, 31);
             matricTxtBx.TabIndex = 8;
-            matricTxtBx.TextChanged += matricTxtBx_TextChanged;
             // 
             // panel1
             // 
-            panel1.BackColor = Color.Plum;
+            panel1.BackColor = Color.Thistle;
             panel1.Controls.Add(matricTxtBx);
             panel1.Controls.Add(matricLbl);
             panel1.Controls.Add(nameTxtBx);
@@ -151,7 +150,7 @@
             // 
             // startBtn
             // 
-            startBtn.BackColor = Color.Purple;
+            startBtn.BackColor = Color.DarkOrchid;
             startBtn.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             startBtn.ForeColor = Color.White;
             startBtn.Location = new Point(422, 365);
@@ -176,6 +175,7 @@
             Controls.Add(pictureBox1);
             Name = "UserLoginForm";
             Text = "Login Form";
+            Load += UserLoginForm_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
