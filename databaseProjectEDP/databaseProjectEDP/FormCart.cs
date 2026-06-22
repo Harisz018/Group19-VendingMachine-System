@@ -126,9 +126,9 @@ namespace databaseProjectEDP
 
         private void contShopBtn_Click(object sender, EventArgs e)
         {
-            //FormCategory category = new FormCategory();
-            //category.Show();
-            //this.Hide();
+            FormFOOD food = new FormFOOD();
+            food.Show();
+            this.Hide();
         }
 
         private void paymentBtn_Click(object sender, EventArgs e)

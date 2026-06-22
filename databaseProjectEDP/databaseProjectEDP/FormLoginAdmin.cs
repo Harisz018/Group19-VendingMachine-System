@@ -72,5 +72,10 @@ namespace databaseProjectEDP
             frm.Show();
             this.Hide();
         }
+
+        private void txtAdminID_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
