@@ -23,5 +23,15 @@ namespace databaseProjectEDP
             frm.Show();
             this.Hide();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormBEAUTY_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

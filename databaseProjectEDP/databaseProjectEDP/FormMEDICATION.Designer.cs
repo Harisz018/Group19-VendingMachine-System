@@ -63,6 +63,13 @@
             lblPanadol = new Label();
             picBxLip = new PictureBox();
             labelTitle = new Label();
+            panel1 = new Panel();
+            btnEssential = new Button();
+            btnBeauty = new Button();
+            pictureBox8 = new PictureBox();
+            btnToys = new Button();
+            btnFood = new Button();
+            btnMedications = new Button();
             ((System.ComponentModel.ISupportInitialize)picBoxHome).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pxBoxCart).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
@@ -73,6 +80,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picBxLip).BeginInit();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             SuspendLayout();
             // 
             // buttonAdd1
@@ -80,7 +89,7 @@
             buttonAdd1.BackColor = Color.Purple;
             buttonAdd1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonAdd1.ForeColor = Color.White;
-            buttonAdd1.Location = new Point(169, 211);
+            buttonAdd1.Location = new Point(257, 208);
             buttonAdd1.Name = "buttonAdd1";
             buttonAdd1.Size = new Size(80, 30);
             buttonAdd1.TabIndex = 106;
@@ -102,7 +111,7 @@
             // pxBoxCart
             // 
             pxBoxCart.Image = Properties.Resources.logocart;
-            pxBoxCart.Location = new Point(733, 12);
+            pxBoxCart.Location = new Point(775, 12);
             pxBoxCart.Name = "pxBoxCart";
             pxBoxCart.Size = new Size(51, 44);
             pxBoxCart.SizeMode = PictureBoxSizeMode.Zoom;
@@ -114,7 +123,7 @@
             btnAdd8.BackColor = Color.Purple;
             btnAdd8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd8.ForeColor = Color.White;
-            btnAdd8.Location = new Point(564, 412);
+            btnAdd8.Location = new Point(652, 411);
             btnAdd8.Name = "btnAdd8";
             btnAdd8.Size = new Size(80, 30);
             btnAdd8.TabIndex = 103;
@@ -125,7 +134,7 @@
             // 
             labelPrice8.AutoSize = true;
             labelPrice8.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPrice8.Location = new Point(571, 391);
+            labelPrice8.Location = new Point(657, 391);
             labelPrice8.Name = "labelPrice8";
             labelPrice8.Size = new Size(63, 19);
             labelPrice8.TabIndex = 102;
@@ -135,7 +144,7 @@
             // 
             lblEye.AutoSize = true;
             lblEye.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblEye.Location = new Point(579, 371);
+            lblEye.Location = new Point(663, 371);
             lblEye.Name = "lblEye";
             lblEye.Size = new Size(53, 19);
             lblEye.TabIndex = 101;
@@ -146,7 +155,7 @@
             btnAdd7.BackColor = Color.Purple;
             btnAdd7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd7.ForeColor = Color.White;
-            btnAdd7.Location = new Point(433, 413);
+            btnAdd7.Location = new Point(518, 411);
             btnAdd7.Name = "btnAdd7";
             btnAdd7.Size = new Size(80, 30);
             btnAdd7.TabIndex = 100;
@@ -157,7 +166,7 @@
             // 
             labelPrice7.AutoSize = true;
             labelPrice7.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPrice7.Location = new Point(440, 392);
+            labelPrice7.Location = new Point(521, 392);
             labelPrice7.Name = "labelPrice7";
             labelPrice7.Size = new Size(71, 19);
             labelPrice7.TabIndex = 99;
@@ -167,7 +176,7 @@
             // 
             lblPeriod.AutoSize = true;
             lblPeriod.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblPeriod.Location = new Point(425, 371);
+            lblPeriod.Location = new Point(508, 371);
             lblPeriod.Name = "lblPeriod";
             lblPeriod.Size = new Size(103, 19);
             lblPeriod.TabIndex = 98;
@@ -176,7 +185,7 @@
             // pictureBox6
             // 
             pictureBox6.Image = Properties.Resources.eyemo;
-            pictureBox6.Location = new Point(540, 266);
+            pictureBox6.Location = new Point(620, 269);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(136, 107);
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
@@ -186,7 +195,7 @@
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.periodpain;
-            pictureBox4.Location = new Point(407, 237);
+            pictureBox4.Location = new Point(486, 248);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(138, 143);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
@@ -198,7 +207,7 @@
             btnAdd6.BackColor = Color.Purple;
             btnAdd6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd6.ForeColor = Color.White;
-            btnAdd6.Location = new Point(301, 413);
+            btnAdd6.Location = new Point(375, 409);
             btnAdd6.Name = "btnAdd6";
             btnAdd6.Size = new Size(80, 30);
             btnAdd6.TabIndex = 97;
@@ -209,7 +218,7 @@
             // 
             labelPrice6.AutoSize = true;
             labelPrice6.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPrice6.Location = new Point(306, 390);
+            labelPrice6.Location = new Point(382, 390);
             labelPrice6.Name = "labelPrice6";
             labelPrice6.Size = new Size(71, 19);
             labelPrice6.TabIndex = 96;
@@ -219,7 +228,7 @@
             // 
             lblCream.AutoSize = true;
             lblCream.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblCream.Location = new Point(282, 371);
+            lblCream.Location = new Point(358, 371);
             lblCream.Name = "lblCream";
             lblCream.Size = new Size(123, 19);
             lblCream.TabIndex = 95;
@@ -228,7 +237,7 @@
             // pictureBox7
             // 
             pictureBox7.Image = Properties.Resources.cream;
-            pictureBox7.Location = new Point(274, 235);
+            pictureBox7.Location = new Point(355, 248);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(130, 148);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
@@ -240,18 +249,19 @@
             btnAdd5.BackColor = Color.Purple;
             btnAdd5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd5.ForeColor = Color.White;
-            btnAdd5.Location = new Point(163, 411);
+            btnAdd5.Location = new Point(249, 411);
             btnAdd5.Name = "btnAdd5";
             btnAdd5.Size = new Size(80, 30);
             btnAdd5.TabIndex = 94;
             btnAdd5.Text = "ADD";
             btnAdd5.UseVisualStyleBackColor = false;
+            btnAdd5.Click += btnAdd5_Click;
             // 
             // labelPrice5
             // 
             labelPrice5.AutoSize = true;
             labelPrice5.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPrice5.Location = new Point(172, 392);
+            labelPrice5.Location = new Point(259, 392);
             labelPrice5.Name = "labelPrice5";
             labelPrice5.Size = new Size(63, 19);
             labelPrice5.TabIndex = 93;
@@ -261,7 +271,7 @@
             // 
             lblMinyak.AutoSize = true;
             lblMinyak.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblMinyak.Location = new Point(143, 371);
+            lblMinyak.Location = new Point(224, 372);
             lblMinyak.Name = "lblMinyak";
             lblMinyak.Size = new Size(133, 19);
             lblMinyak.TabIndex = 92;
@@ -270,7 +280,7 @@
             // pictureBox5
             // 
             pictureBox5.Image = Properties.Resources.capkapak;
-            pictureBox5.Location = new Point(143, 236);
+            pictureBox5.Location = new Point(233, 238);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(127, 148);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
@@ -282,7 +292,7 @@
             btnAdd4.BackColor = Color.Purple;
             btnAdd4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd4.ForeColor = Color.White;
-            btnAdd4.Location = new Point(560, 212);
+            btnAdd4.Location = new Point(650, 212);
             btnAdd4.Name = "btnAdd4";
             btnAdd4.Size = new Size(80, 30);
             btnAdd4.TabIndex = 91;
@@ -293,7 +303,7 @@
             // 
             labelPrice4.AutoSize = true;
             labelPrice4.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPrice4.Location = new Point(571, 194);
+            labelPrice4.Location = new Point(657, 194);
             labelPrice4.Name = "labelPrice4";
             labelPrice4.Size = new Size(63, 19);
             labelPrice4.TabIndex = 90;
@@ -303,7 +313,7 @@
             // 
             lblGaviscon.AutoSize = true;
             lblGaviscon.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblGaviscon.Location = new Point(568, 172);
+            lblGaviscon.Location = new Point(652, 174);
             lblGaviscon.Name = "lblGaviscon";
             lblGaviscon.Size = new Size(69, 19);
             lblGaviscon.TabIndex = 89;
@@ -312,9 +322,9 @@
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.gaviscon;
-            pictureBox3.Location = new Point(544, 35);
+            pictureBox3.Location = new Point(628, 78);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(121, 156);
+            pictureBox3.Size = new Size(129, 113);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 75;
             pictureBox3.TabStop = false;
@@ -324,7 +334,7 @@
             btnAdd3.BackColor = Color.Purple;
             btnAdd3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd3.ForeColor = Color.White;
-            btnAdd3.Location = new Point(439, 212);
+            btnAdd3.Location = new Point(521, 212);
             btnAdd3.Name = "btnAdd3";
             btnAdd3.Size = new Size(80, 30);
             btnAdd3.TabIndex = 88;
@@ -335,7 +345,7 @@
             // 
             labelPrice3.AutoSize = true;
             labelPrice3.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPrice3.Location = new Point(447, 195);
+            labelPrice3.Location = new Point(531, 195);
             labelPrice3.Name = "labelPrice3";
             labelPrice3.Size = new Size(63, 19);
             labelPrice3.TabIndex = 87;
@@ -345,7 +355,7 @@
             // 
             lblCoolFever.AutoSize = true;
             lblCoolFever.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblCoolFever.Location = new Point(440, 172);
+            lblCoolFever.Location = new Point(521, 175);
             lblCoolFever.Name = "lblCoolFever";
             lblCoolFever.Size = new Size(81, 19);
             lblCoolFever.TabIndex = 86;
@@ -354,7 +364,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.coolfever;
-            pictureBox1.Location = new Point(422, 62);
+            pictureBox1.Location = new Point(506, 66);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(116, 111);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -366,7 +376,7 @@
             btnAdd2.BackColor = Color.Purple;
             btnAdd2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd2.ForeColor = Color.White;
-            btnAdd2.Location = new Point(304, 210);
+            btnAdd2.Location = new Point(380, 209);
             btnAdd2.Name = "btnAdd2";
             btnAdd2.Size = new Size(80, 30);
             btnAdd2.TabIndex = 85;
@@ -377,7 +387,7 @@
             // 
             labelPrice2.AutoSize = true;
             labelPrice2.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPrice2.Location = new Point(312, 191);
+            labelPrice2.Location = new Point(390, 190);
             labelPrice2.Name = "labelPrice2";
             labelPrice2.Size = new Size(63, 19);
             labelPrice2.TabIndex = 84;
@@ -387,7 +397,7 @@
             // 
             lblStrepsils.AutoSize = true;
             lblStrepsils.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblStrepsils.Location = new Point(312, 172);
+            lblStrepsils.Location = new Point(391, 172);
             lblStrepsils.Name = "lblStrepsils";
             lblStrepsils.Size = new Size(65, 19);
             lblStrepsils.TabIndex = 83;
@@ -396,7 +406,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.strepsils;
-            pictureBox2.Location = new Point(289, 51);
+            pictureBox2.Location = new Point(372, 60);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(115, 136);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -407,7 +417,7 @@
             // 
             labelPrice.AutoSize = true;
             labelPrice.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPrice.Location = new Point(178, 190);
+            labelPrice.Location = new Point(268, 188);
             labelPrice.Name = "labelPrice";
             labelPrice.Size = new Size(63, 19);
             labelPrice.TabIndex = 82;
@@ -417,7 +427,7 @@
             // 
             lblPanadol.AutoSize = true;
             lblPanadol.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblPanadol.Location = new Point(178, 172);
+            lblPanadol.Location = new Point(268, 172);
             lblPanadol.Name = "lblPanadol";
             lblPanadol.Size = new Size(64, 19);
             lblPanadol.TabIndex = 81;
@@ -426,7 +436,7 @@
             // picBxLip
             // 
             picBxLip.Image = Properties.Resources.panadol;
-            picBxLip.Location = new Point(154, 51);
+            picBxLip.Location = new Point(243, 51);
             picBxLip.Name = "picBxLip";
             picBxLip.Size = new Size(114, 136);
             picBxLip.SizeMode = PictureBoxSizeMode.Zoom;
@@ -438,18 +448,90 @@
             labelTitle.AutoSize = true;
             labelTitle.Font = new Font("Microsoft YaHei UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelTitle.ForeColor = Color.DarkMagenta;
-            labelTitle.Location = new Point(318, 9);
+            labelTitle.Location = new Point(413, 13);
             labelTitle.Name = "labelTitle";
             labelTitle.Size = new Size(175, 37);
             labelTitle.TabIndex = 72;
             labelTitle.Text = "Medication";
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.Purple;
+            panel1.Controls.Add(btnEssential);
+            panel1.Controls.Add(btnBeauty);
+            panel1.Controls.Add(pictureBox8);
+            panel1.Controls.Add(btnToys);
+            panel1.Controls.Add(btnFood);
+            panel1.Controls.Add(btnMedications);
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(218, 450);
+            panel1.TabIndex = 107;
+            // 
+            // btnEssential
+            // 
+            btnEssential.Location = new Point(38, 317);
+            btnEssential.Name = "btnEssential";
+            btnEssential.Size = new Size(149, 29);
+            btnEssential.TabIndex = 9;
+            btnEssential.Text = "Essentials";
+            btnEssential.UseVisualStyleBackColor = true;
+            // 
+            // btnBeauty
+            // 
+            btnBeauty.Location = new Point(38, 136);
+            btnBeauty.Name = "btnBeauty";
+            btnBeauty.Size = new Size(149, 29);
+            btnBeauty.TabIndex = 6;
+            btnBeauty.Text = "Beauty";
+            btnBeauty.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox8
+            // 
+            pictureBox8.Cursor = Cursors.Hand;
+            pictureBox8.Image = Properties.Resources.home;
+            pictureBox8.Location = new Point(12, 9);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(57, 54);
+            pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox8.TabIndex = 35;
+            pictureBox8.TabStop = false;
+            // 
+            // btnToys
+            // 
+            btnToys.Location = new Point(38, 259);
+            btnToys.Name = "btnToys";
+            btnToys.Size = new Size(149, 29);
+            btnToys.TabIndex = 8;
+            btnToys.Text = "Toys";
+            btnToys.UseVisualStyleBackColor = true;
+            // 
+            // btnFood
+            // 
+            btnFood.Location = new Point(40, 78);
+            btnFood.Name = "btnFood";
+            btnFood.Size = new Size(149, 29);
+            btnFood.TabIndex = 5;
+            btnFood.Text = "Food And Drinks";
+            btnFood.UseVisualStyleBackColor = true;
+            // 
+            // btnMedications
+            // 
+            btnMedications.Location = new Point(38, 197);
+            btnMedications.Name = "btnMedications";
+            btnMedications.Size = new Size(149, 29);
+            btnMedications.TabIndex = 7;
+            btnMedications.Text = "Medications";
+            btnMedications.UseVisualStyleBackColor = true;
             // 
             // FormMEDICATION
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LavenderBlush;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(847, 450);
+            Controls.Add(panel1);
             Controls.Add(buttonAdd1);
             Controls.Add(picBoxHome);
             Controls.Add(pxBoxCart);
@@ -498,6 +580,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)picBxLip).EndInit();
+            panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -539,5 +623,12 @@
         private Label lblPanadol;
         private PictureBox picBxLip;
         private Label labelTitle;
+        private Panel panel1;
+        private Button btnEssential;
+        private Button btnBeauty;
+        private PictureBox pictureBox8;
+        private Button btnToys;
+        private Button btnFood;
+        private Button btnMedications;
     }
 }

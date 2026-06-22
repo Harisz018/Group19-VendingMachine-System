@@ -23,5 +23,10 @@ namespace databaseProjectEDP
             frm.Show();
             this.Hide();
         }
+
+        private void FormESSENTIALS_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
