@@ -73,12 +73,7 @@ namespace databaseProjectEDP
             MessageBox.Show("Tiger Original added to cart!");
         }
 
-        private void pxBoxCart_Click(object sender, EventArgs e)
-        {
-            FormCart frm = new FormCart();
-            frm.Show();
-            this.Hide();
-        }
+      
     }
 
 

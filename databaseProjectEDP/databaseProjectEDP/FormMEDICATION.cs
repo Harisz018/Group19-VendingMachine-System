@@ -23,5 +23,10 @@ namespace databaseProjectEDP
             frm.Show();
             this.Hide();
         }
+
+        private void btnAdd5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
