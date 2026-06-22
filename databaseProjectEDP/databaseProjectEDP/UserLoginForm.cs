@@ -24,7 +24,7 @@ namespace databaseProjectEDP
                 MessageBox.Show("Please Enter Your Name");
                 return;
             }
-            
+
             if (matricTxtBx.Text == "")
             {
                 MessageBox.Show("Please Enter Your Matric Number");
@@ -34,8 +34,7 @@ namespace databaseProjectEDP
             customerName = nameTxtBx.Text;
             matricNo = matricTxtBx.Text;
 
-            //nanti tukar!
-            FormCart category = new FormCart();
+            FormCategory category = new FormCategory();
             category.Show();
             this.Hide();
 
@@ -50,6 +49,13 @@ namespace databaseProjectEDP
         private void UserLoginForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void lnkRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormLoginAdmin loginAdmin = new FormLoginAdmin();
+            loginAdmin.Show();
+            this.Hide();
         }
     }
 }

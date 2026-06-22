@@ -39,6 +39,8 @@
             matricTxtBx = new TextBox();
             panel1 = new Panel();
             startBtn = new Button();
+            label5 = new Label();
+            lnkRegister = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -46,9 +48,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.machine;
-            pictureBox1.Location = new Point(-8, 9);
+            pictureBox1.Location = new Point(12, 6);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(375, 466);
+            pictureBox1.Size = new Size(390, 537);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -58,7 +60,7 @@
             welcomeLbl.AutoSize = true;
             welcomeLbl.Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
             welcomeLbl.ForeColor = Color.DimGray;
-            welcomeLbl.Location = new Point(475, 26);
+            welcomeLbl.Location = new Point(520, 53);
             welcomeLbl.Name = "welcomeLbl";
             welcomeLbl.Size = new Size(152, 27);
             welcomeLbl.TabIndex = 1;
@@ -69,7 +71,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft YaHei UI", 26F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Indigo;
-            label1.Location = new Point(415, 53);
+            label1.Location = new Point(460, 80);
             label1.Name = "label1";
             label1.Size = new Size(283, 69);
             label1.TabIndex = 2;
@@ -81,7 +83,7 @@
             sloganLbl.AutoSize = true;
             sloganLbl.Font = new Font("Microsoft YaHei UI", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             sloganLbl.ForeColor = Color.DimGray;
-            sloganLbl.Location = new Point(426, 124);
+            sloganLbl.Location = new Point(471, 151);
             sloganLbl.Name = "sloganLbl";
             sloganLbl.Size = new Size(260, 21);
             sloganLbl.TabIndex = 3;
@@ -143,7 +145,7 @@
             panel1.Controls.Add(nameTxtBx);
             panel1.Controls.Add(nameLbl);
             panel1.Controls.Add(detailsLbl);
-            panel1.Location = new Point(354, 163);
+            panel1.Location = new Point(399, 190);
             panel1.Name = "panel1";
             panel1.Size = new Size(405, 182);
             panel1.TabIndex = 9;
@@ -153,7 +155,7 @@
             startBtn.BackColor = Color.DarkOrchid;
             startBtn.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             startBtn.ForeColor = Color.White;
-            startBtn.Location = new Point(422, 365);
+            startBtn.Location = new Point(460, 427);
             startBtn.Name = "startBtn";
             startBtn.Size = new Size(276, 75);
             startBtn.TabIndex = 10;
@@ -161,12 +163,38 @@
             startBtn.UseVisualStyleBackColor = false;
             startBtn.Click += startBtn_Click_1;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.DimGray;
+            label5.Location = new Point(467, 387);
+            label5.Margin = new Padding(4, 0, 4, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(164, 25);
+            label5.TabIndex = 13;
+            label5.Text = "Are you an Admin?";
+            // 
+            // lnkRegister
+            // 
+            lnkRegister.AutoSize = true;
+            lnkRegister.Location = new Point(629, 387);
+            lnkRegister.Margin = new Padding(4, 0, 4, 0);
+            lnkRegister.Name = "lnkRegister";
+            lnkRegister.Size = new Size(95, 25);
+            lnkRegister.TabIndex = 12;
+            lnkRegister.TabStop = true;
+            lnkRegister.Text = "Login here";
+            lnkRegister.LinkClicked += lnkRegister_LinkClicked;
+            // 
             // UserLoginForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.AliceBlue;
-            ClientSize = new Size(800, 475);
+            BackColor = Color.LavenderBlush;
+            ClientSize = new Size(872, 555);
+            Controls.Add(label5);
+            Controls.Add(lnkRegister);
             Controls.Add(startBtn);
             Controls.Add(panel1);
             Controls.Add(sloganLbl);
@@ -196,5 +224,7 @@
         private TextBox matricTxtBx;
         private Panel panel1;
         private Button startBtn;
+        private Label label5;
+        private LinkLabel lnkRegister;
     }
 }
