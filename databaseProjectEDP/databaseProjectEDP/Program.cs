@@ -13,6 +13,12 @@ namespace databaseProjectEDP
             ApplicationConfiguration.Initialize();
             Application.Run(new FormLoginAdmin());
             Application.Run(new UserLoginForm());
-        }
+            Application.Run(new FormCategory());
+			Application.Run(new FormFOOD());
+			Application.Run(new FormBEAUTY());
+			Application.Run(new FormMEDICATION());
+			Application.Run(new FormTOYS());
+			Application.Run(new FormESSENTIALS());
+		}
     }
 }

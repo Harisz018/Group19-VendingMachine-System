@@ -72,6 +72,7 @@
             // 
             // pictureBoxFood
             // 
+            pictureBoxFood.Cursor = Cursors.Hand;
             pictureBoxFood.Image = (Image)resources.GetObject("pictureBoxFood.Image");
             pictureBoxFood.Location = new Point(128, 114);
             pictureBoxFood.Name = "pictureBoxFood";
@@ -79,9 +80,11 @@
             pictureBoxFood.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxFood.TabIndex = 2;
             pictureBoxFood.TabStop = false;
+            pictureBoxFood.Click += pictureBoxFood_Click;
             // 
             // pictureBoxBeauty
             // 
+            pictureBoxBeauty.Cursor = Cursors.Hand;
             pictureBoxBeauty.Image = (Image)resources.GetObject("pictureBoxBeauty.Image");
             pictureBoxBeauty.Location = new Point(318, 114);
             pictureBoxBeauty.Name = "pictureBoxBeauty";
@@ -89,9 +92,11 @@
             pictureBoxBeauty.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxBeauty.TabIndex = 3;
             pictureBoxBeauty.TabStop = false;
+            pictureBoxBeauty.Click += pictureBoxBeauty_Click;
             // 
             // pictureBoxMedication
             // 
+            pictureBoxMedication.Cursor = Cursors.Hand;
             pictureBoxMedication.Image = (Image)resources.GetObject("pictureBoxMedication.Image");
             pictureBoxMedication.Location = new Point(498, 123);
             pictureBoxMedication.Name = "pictureBoxMedication";
@@ -99,9 +104,11 @@
             pictureBoxMedication.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxMedication.TabIndex = 4;
             pictureBoxMedication.TabStop = false;
+            pictureBoxMedication.Click += pictureBoxMedication_Click;
             // 
             // pictureBoxToys
             // 
+            pictureBoxToys.Cursor = Cursors.Hand;
             pictureBoxToys.Image = (Image)resources.GetObject("pictureBoxToys.Image");
             pictureBoxToys.Location = new Point(214, 261);
             pictureBoxToys.Name = "pictureBoxToys";
@@ -113,6 +120,7 @@
             // 
             // pictureBoxEssential
             // 
+            pictureBoxEssential.Cursor = Cursors.Hand;
             pictureBoxEssential.Image = (Image)resources.GetObject("pictureBoxEssential.Image");
             pictureBoxEssential.Location = new Point(400, 261);
             pictureBoxEssential.Name = "pictureBoxEssential";
@@ -120,6 +128,7 @@
             pictureBoxEssential.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxEssential.TabIndex = 6;
             pictureBoxEssential.TabStop = false;
+            pictureBoxEssential.Click += pictureBoxEssential_Click;
             // 
             // labelFood
             // 
