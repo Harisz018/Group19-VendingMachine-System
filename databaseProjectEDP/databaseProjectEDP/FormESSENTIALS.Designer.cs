@@ -80,7 +80,7 @@
             buttonAdd1.BackColor = Color.Purple;
             buttonAdd1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonAdd1.ForeColor = Color.White;
-            buttonAdd1.Location = new Point(169, 211);
+            buttonAdd1.Location = new Point(169, 203);
             buttonAdd1.Name = "buttonAdd1";
             buttonAdd1.Size = new Size(80, 30);
             buttonAdd1.TabIndex = 106;
@@ -366,7 +366,7 @@
             btnAdd2.BackColor = Color.Purple;
             btnAdd2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd2.ForeColor = Color.White;
-            btnAdd2.Location = new Point(305, 213);
+            btnAdd2.Location = new Point(305, 202);
             btnAdd2.Name = "btnAdd2";
             btnAdd2.Size = new Size(80, 30);
             btnAdd2.TabIndex = 85;
@@ -377,7 +377,7 @@
             // 
             labelPrice2.AutoSize = true;
             labelPrice2.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPrice2.Location = new Point(312, 191);
+            labelPrice2.Location = new Point(312, 184);
             labelPrice2.Name = "labelPrice2";
             labelPrice2.Size = new Size(63, 19);
             labelPrice2.TabIndex = 84;
@@ -387,7 +387,7 @@
             // 
             lblSoap.AutoSize = true;
             lblSoap.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblSoap.Location = new Point(306, 172);
+            lblSoap.Location = new Point(307, 166);
             lblSoap.Name = "lblSoap";
             lblSoap.Size = new Size(77, 19);
             lblSoap.TabIndex = 83;
@@ -396,7 +396,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.soap;
-            pictureBox2.Location = new Point(289, 51);
+            pictureBox2.Location = new Point(289, 44);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(115, 136);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -407,7 +407,7 @@
             // 
             labelPrice.AutoSize = true;
             labelPrice.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPrice.Location = new Point(176, 191);
+            labelPrice.Location = new Point(178, 185);
             labelPrice.Name = "labelPrice";
             labelPrice.Size = new Size(63, 19);
             labelPrice.TabIndex = 82;
@@ -417,7 +417,7 @@
             // 
             lbltissue.AutoSize = true;
             lbltissue.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbltissue.Location = new Point(169, 172);
+            lbltissue.Location = new Point(171, 167);
             lbltissue.Name = "lbltissue";
             lbltissue.Size = new Size(79, 19);
             lbltissue.TabIndex = 81;
@@ -426,7 +426,7 @@
             // picBxLip
             // 
             picBxLip.Image = Properties.Resources.tissuebox;
-            picBxLip.Location = new Point(158, 63);
+            picBxLip.Location = new Point(160, 55);
             picBxLip.Name = "picBxLip";
             picBxLip.Size = new Size(105, 118);
             picBxLip.SizeMode = PictureBoxSizeMode.Zoom;
