@@ -105,6 +105,7 @@
             btnEssential.TabIndex = 9;
             btnEssential.Text = "Essentials";
             btnEssential.UseVisualStyleBackColor = true;
+            btnEssential.Click += btnEssential_Click;
             // 
             // btnBeauty
             // 
@@ -114,6 +115,7 @@
             btnBeauty.TabIndex = 6;
             btnBeauty.Text = "Beauty";
             btnBeauty.UseVisualStyleBackColor = true;
+            btnBeauty.Click += btnBeauty_Click;
             // 
             // picBoxHome
             // 
@@ -125,6 +127,7 @@
             picBoxHome.SizeMode = PictureBoxSizeMode.Zoom;
             picBoxHome.TabIndex = 35;
             picBoxHome.TabStop = false;
+            picBoxHome.Click += picBoxHome_Click_1;
             // 
             // btnToys
             // 
@@ -134,6 +137,7 @@
             btnToys.TabIndex = 8;
             btnToys.Text = "Toys";
             btnToys.UseVisualStyleBackColor = true;
+            btnToys.Click += btnToys_Click;
             // 
             // btnFood
             // 
@@ -143,6 +147,7 @@
             btnFood.TabIndex = 5;
             btnFood.Text = "Food And Drinks";
             btnFood.UseVisualStyleBackColor = true;
+            btnFood.Click += btnFood_Click;
             // 
             // btnMedications
             // 
@@ -152,6 +157,7 @@
             btnMedications.TabIndex = 7;
             btnMedications.Text = "Medications";
             btnMedications.UseVisualStyleBackColor = true;
+            btnMedications.Click += btnMedications_Click;
             // 
             // buttonAdd1
             // 
@@ -159,12 +165,13 @@
             buttonAdd1.Cursor = Cursors.Hand;
             buttonAdd1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonAdd1.ForeColor = Color.White;
-            buttonAdd1.Location = new Point(250, 209);
+            buttonAdd1.Location = new Point(253, 209);
             buttonAdd1.Name = "buttonAdd1";
             buttonAdd1.Size = new Size(80, 30);
             buttonAdd1.TabIndex = 71;
             buttonAdd1.Text = "ADD";
             buttonAdd1.UseVisualStyleBackColor = false;
+            buttonAdd1.Click += buttonAdd1_Click;
             // 
             // pxBoxCart
             // 
@@ -175,6 +182,7 @@
             pxBoxCart.SizeMode = PictureBoxSizeMode.Zoom;
             pxBoxCart.TabIndex = 70;
             pxBoxCart.TabStop = false;
+            pxBoxCart.Click += pxBoxCart_Click;
             // 
             // btnAdd8
             // 
@@ -187,6 +195,7 @@
             btnAdd8.TabIndex = 69;
             btnAdd8.Text = "ADD";
             btnAdd8.UseVisualStyleBackColor = false;
+            btnAdd8.Click += btnAdd8_Click;
             // 
             // labelPrice8
             // 
@@ -219,6 +228,7 @@
             btnAdd7.TabIndex = 66;
             btnAdd7.Text = "ADD";
             btnAdd7.UseVisualStyleBackColor = false;
+            btnAdd7.Click += btnAdd7_Click;
             // 
             // labelPrice7
             // 
@@ -271,6 +281,7 @@
             btnAdd6.TabIndex = 63;
             btnAdd6.Text = "ADD";
             btnAdd6.UseVisualStyleBackColor = false;
+            btnAdd6.Click += btnAdd6_Click;
             // 
             // labelPrice6
             // 
@@ -307,12 +318,13 @@
             btnAdd5.BackColor = Color.Purple;
             btnAdd5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd5.ForeColor = Color.White;
-            btnAdd5.Location = new Point(250, 397);
+            btnAdd5.Location = new Point(258, 397);
             btnAdd5.Name = "btnAdd5";
             btnAdd5.Size = new Size(80, 30);
             btnAdd5.TabIndex = 60;
             btnAdd5.Text = "ADD";
             btnAdd5.UseVisualStyleBackColor = false;
+            btnAdd5.Click += btnAdd5_Click;
             // 
             // labelPrice5
             // 
@@ -355,6 +367,7 @@
             btnAdd4.TabIndex = 57;
             btnAdd4.Text = "ADD";
             btnAdd4.UseVisualStyleBackColor = false;
+            btnAdd4.Click += btnAdd4_Click;
             // 
             // labelPrice4
             // 
@@ -398,6 +411,7 @@
             btnAdd3.TabIndex = 54;
             btnAdd3.Text = "ADD";
             btnAdd3.UseVisualStyleBackColor = false;
+            btnAdd3.Click += btnAdd3_Click;
             // 
             // labelPrice3
             // 
@@ -440,12 +454,13 @@
             btnAdd2.TabIndex = 51;
             btnAdd2.Text = "ADD";
             btnAdd2.UseVisualStyleBackColor = false;
+            btnAdd2.Click += btnAdd2_Click;
             // 
             // labelPrice2
             // 
             labelPrice2.AutoSize = true;
             labelPrice2.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPrice2.Location = new Point(378, 191);
+            labelPrice2.Location = new Point(379, 191);
             labelPrice2.Name = "labelPrice2";
             labelPrice2.Size = new Size(63, 19);
             labelPrice2.TabIndex = 50;
@@ -465,7 +480,7 @@
             // 
             labelPrice.AutoSize = true;
             labelPrice.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPrice.Location = new Point(260, 190);
+            labelPrice.Location = new Point(261, 190);
             labelPrice.Name = "labelPrice";
             labelPrice.Size = new Size(63, 19);
             labelPrice.TabIndex = 48;
@@ -494,7 +509,7 @@
             // pictureBoxMineral
             // 
             pictureBoxMineral.Image = Properties.Resources.lipbalm;
-            pictureBoxMineral.Location = new Point(256, 51);
+            pictureBoxMineral.Location = new Point(252, 51);
             pictureBoxMineral.Name = "pictureBoxMineral";
             pictureBoxMineral.Size = new Size(108, 131);
             pictureBoxMineral.SizeMode = PictureBoxSizeMode.Zoom;

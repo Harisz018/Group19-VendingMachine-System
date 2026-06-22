@@ -87,12 +87,13 @@
             buttonAdd1.BackColor = Color.Purple;
             buttonAdd1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonAdd1.ForeColor = Color.White;
-            buttonAdd1.Location = new Point(269, 204);
+            buttonAdd1.Location = new Point(269, 211);
             buttonAdd1.Name = "buttonAdd1";
             buttonAdd1.Size = new Size(80, 30);
             buttonAdd1.TabIndex = 141;
             buttonAdd1.Text = "ADD";
             buttonAdd1.UseVisualStyleBackColor = false;
+            buttonAdd1.Click += buttonAdd1_Click;
             // 
             // pxBoxCart
             // 
@@ -103,6 +104,7 @@
             pxBoxCart.SizeMode = PictureBoxSizeMode.Zoom;
             pxBoxCart.TabIndex = 139;
             pxBoxCart.TabStop = false;
+            pxBoxCart.Click += pxBoxCart_Click;
             // 
             // btnAdd8
             // 
@@ -115,6 +117,7 @@
             btnAdd8.TabIndex = 138;
             btnAdd8.Text = "ADD";
             btnAdd8.UseVisualStyleBackColor = false;
+            btnAdd8.Click += btnAdd8_Click;
             // 
             // labelPrice8
             // 
@@ -147,6 +150,7 @@
             btnAdd7.TabIndex = 135;
             btnAdd7.Text = "ADD";
             btnAdd7.UseVisualStyleBackColor = false;
+            btnAdd7.Click += btnAdd7_Click;
             // 
             // labelPrice7
             // 
@@ -200,6 +204,7 @@
             btnAdd6.TabIndex = 132;
             btnAdd6.Text = "ADD";
             btnAdd6.UseVisualStyleBackColor = false;
+            btnAdd6.Click += btnAdd6_Click;
             // 
             // labelPrice6
             // 
@@ -242,6 +247,7 @@
             btnAdd5.TabIndex = 129;
             btnAdd5.Text = "ADD";
             btnAdd5.UseVisualStyleBackColor = false;
+            btnAdd5.Click += btnAdd5_Click;
             // 
             // labelPrice5
             // 
@@ -284,6 +290,7 @@
             btnAdd4.TabIndex = 126;
             btnAdd4.Text = "ADD";
             btnAdd4.UseVisualStyleBackColor = false;
+            btnAdd4.Click += btnAdd4_Click;
             // 
             // labelPrice4
             // 
@@ -326,6 +333,7 @@
             btnAdd3.TabIndex = 123;
             btnAdd3.Text = "ADD";
             btnAdd3.UseVisualStyleBackColor = false;
+            btnAdd3.Click += btnAdd3_Click;
             // 
             // labelPrice3
             // 
@@ -362,12 +370,13 @@
             btnAdd2.BackColor = Color.Purple;
             btnAdd2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd2.ForeColor = Color.White;
-            btnAdd2.Location = new Point(381, 209);
+            btnAdd2.Location = new Point(393, 210);
             btnAdd2.Name = "btnAdd2";
             btnAdd2.Size = new Size(80, 30);
             btnAdd2.TabIndex = 120;
             btnAdd2.Text = "ADD";
             btnAdd2.UseVisualStyleBackColor = false;
+            btnAdd2.Click += btnAdd2_Click;
             // 
             // labelPrice2
             // 
@@ -463,6 +472,7 @@
             btnEssential.TabIndex = 9;
             btnEssential.Text = "Essentials";
             btnEssential.UseVisualStyleBackColor = true;
+            btnEssential.Click += btnEssential_Click;
             // 
             // btnBeauty
             // 
@@ -472,6 +482,7 @@
             btnBeauty.TabIndex = 6;
             btnBeauty.Text = "Beauty";
             btnBeauty.UseVisualStyleBackColor = true;
+            btnBeauty.Click += btnBeauty_Click;
             // 
             // picBoxHome
             // 
@@ -483,6 +494,7 @@
             picBoxHome.SizeMode = PictureBoxSizeMode.Zoom;
             picBoxHome.TabIndex = 35;
             picBoxHome.TabStop = false;
+            picBoxHome.Click += picBoxHome_Click_1;
             // 
             // btnToys
             // 
@@ -492,6 +504,7 @@
             btnToys.TabIndex = 8;
             btnToys.Text = "Toys";
             btnToys.UseVisualStyleBackColor = true;
+            btnToys.Click += btnToys_Click;
             // 
             // btnFood
             // 
@@ -501,6 +514,7 @@
             btnFood.TabIndex = 5;
             btnFood.Text = "Food And Drinks";
             btnFood.UseVisualStyleBackColor = true;
+            btnFood.Click += btnFood_Click;
             // 
             // btnMedications
             // 
@@ -510,6 +524,7 @@
             btnMedications.TabIndex = 7;
             btnMedications.Text = "Medications";
             btnMedications.UseVisualStyleBackColor = true;
+            btnMedications.Click += btnMedications_Click;
             // 
             // FormTOYS
             // 

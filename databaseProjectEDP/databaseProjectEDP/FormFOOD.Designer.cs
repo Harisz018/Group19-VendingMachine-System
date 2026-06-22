@@ -68,7 +68,7 @@
             btnBeauty = new Button();
             btnToys = new Button();
             btnFood = new Button();
-            btnStock = new Button();
+            btnMedications = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -433,7 +433,7 @@
             pxBoxCart.SizeMode = PictureBoxSizeMode.Zoom;
             pxBoxCart.TabIndex = 34;
             pxBoxCart.TabStop = false;
-            
+            pxBoxCart.Click += pxBoxCart_Click;
             // 
             // picBoxHome
             // 
@@ -469,7 +469,7 @@
             panel1.Controls.Add(picBoxHome);
             panel1.Controls.Add(btnToys);
             panel1.Controls.Add(btnFood);
-            panel1.Controls.Add(btnStock);
+            panel1.Controls.Add(btnMedications);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
@@ -484,6 +484,7 @@
             btnEssentials.TabIndex = 9;
             btnEssentials.Text = "Essentials";
             btnEssentials.UseVisualStyleBackColor = true;
+            btnEssentials.Click += btnEssentials_Click;
             // 
             // btnBeauty
             // 
@@ -493,6 +494,7 @@
             btnBeauty.TabIndex = 6;
             btnBeauty.Text = "Beauty";
             btnBeauty.UseVisualStyleBackColor = true;
+            btnBeauty.Click += btnBeauty_Click;
             // 
             // btnToys
             // 
@@ -502,6 +504,7 @@
             btnToys.TabIndex = 8;
             btnToys.Text = "Toys";
             btnToys.UseVisualStyleBackColor = true;
+            btnToys.Click += btnToys_Click;
             // 
             // btnFood
             // 
@@ -511,15 +514,17 @@
             btnFood.TabIndex = 5;
             btnFood.Text = "Food And Drinks";
             btnFood.UseVisualStyleBackColor = true;
+            btnFood.Click += btnFood_Click;
             // 
-            // btnStock
+            // btnMedications
             // 
-            btnStock.Location = new Point(38, 197);
-            btnStock.Name = "btnStock";
-            btnStock.Size = new Size(149, 29);
-            btnStock.TabIndex = 7;
-            btnStock.Text = "Medications";
-            btnStock.UseVisualStyleBackColor = true;
+            btnMedications.Location = new Point(38, 197);
+            btnMedications.Name = "btnMedications";
+            btnMedications.Size = new Size(149, 29);
+            btnMedications.TabIndex = 7;
+            btnMedications.Text = "Medications";
+            btnMedications.UseVisualStyleBackColor = true;
+            btnMedications.Click += btnMedications_Click;
             // 
             // FormFOOD
             // 
@@ -621,6 +626,6 @@
         private Button btnBeauty;
         private Button btnToys;
         private Button btnFood;
-        private Button btnStock;
+        private Button btnMedications;
     }
 }

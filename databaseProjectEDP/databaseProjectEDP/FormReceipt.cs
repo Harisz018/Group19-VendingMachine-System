@@ -31,10 +31,12 @@ namespace databaseProjectEDP
             paymentMethodLbl.Text = paymentMethod;
             totalLbl.Text = "RM " + totalAmount.ToString("0.00");
 
-            //dummy data
-            itemsListBx.Items.Add("Coca Cola");
-            itemsListBx.Items.Add("Milo");
-            itemsListBx.Items.Add("KitKat");
+            itemsListBx.Items.Clear();
+
+            foreach (CartItem item in Cart.Items)
+            {
+                itemsListBx.Items.Add(item.Name + " x" + item.Quantity);
+            }
 
         }
 

@@ -28,6 +28,24 @@ namespace databaseProjectEDP
             }
             totalLbl.Text = "RM " + total.ToString("0.00");
         }
+
+        private void updateCartItems()
+        {
+            Cart.Items.Clear();
+
+            foreach (DataGridViewRow row in dgvCart.Rows)
+            {
+                if (row.Cells[0].Value != null)
+                {
+                    Cart.Items.Add(new CartItem
+                    {
+                        Name = row.Cells[0].Value.ToString(),
+                        Price = Convert.ToDecimal(row.Cells[1].Value),
+                        Quantity = Convert.ToInt32(row.Cells[2].Value)
+                    });
+                }
+            }
+        }
         private void rmtotalLbl_Click(object sender, EventArgs e)
         {
             decimal totalAmount = 0;
@@ -43,13 +61,15 @@ namespace databaseProjectEDP
 
         private void FormCart_Load(object sender, EventArgs e)
         {
-            //data dummy
-            dgvCart.Rows.Add("Coca Cola", 2.50, 1, 2.50);
-            dgvCart.Rows.Add("Milo", 3.00, 1, 3.00);
+            dgvCart.Rows.Clear();
+
+            foreach (CartItem item in Cart.Items)
+            {
+                dgvCart.Rows.Add(item.Name, item.Price, item.Quantity, item.Total);
+            }
 
             calculateTotal();
-
-        }
+        } 
 
         private void dgvCart_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -67,6 +87,7 @@ namespace databaseProjectEDP
             selectedItemLbl.Text = "-";
             qtyTxtBx.Text = "0";
             totalLbl.Text = "RM 0.00";
+            Cart.Items.Clear();
 
         }
 
@@ -86,6 +107,7 @@ namespace databaseProjectEDP
                 qtyTxtBx.Text = qty.ToString();
 
                 calculateTotal();
+                updateCartItems();
             }
         }
 
@@ -107,6 +129,7 @@ namespace databaseProjectEDP
                     qtyTxtBx.Text = qty.ToString();
 
                     calculateTotal();
+                    updateCartItems();
                 }
             }
         }
@@ -121,6 +144,7 @@ namespace databaseProjectEDP
                 qtyTxtBx.Text = "0";
 
                 calculateTotal();
+                updateCartItems();
             }
         }
 

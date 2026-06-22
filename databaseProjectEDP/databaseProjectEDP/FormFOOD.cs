@@ -19,8 +19,8 @@ namespace databaseProjectEDP
 
         private void picBoxHome_Click(object sender, EventArgs e)
         {
-            FormCategory frm = new FormCategory();
-            frm.Show();
+            UserLoginForm login = new UserLoginForm();
+            login.Show();
             this.Hide();
         }
 
@@ -73,7 +73,49 @@ namespace databaseProjectEDP
             MessageBox.Show("Tiger Original added to cart!");
         }
 
-      
+        private void pxBoxCart_Click(object sender, EventArgs e)
+        {
+            FormCart frm = new FormCart();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnFood_Click(object sender, EventArgs e)
+        {
+            FormFOOD food = new FormFOOD();
+            food.Show();
+            this.Hide();
+        }
+
+        private void btnBeauty_Click(object sender, EventArgs e)
+        {
+            FormBEAUTY beauty = new FormBEAUTY();
+            beauty.Show();
+            this.Hide();
+        }
+
+        private void btnMedications_Click(object sender, EventArgs e)
+        {
+
+            FormMEDICATION medication = new FormMEDICATION();
+            medication.Show();
+            this.Hide();
+        }
+
+        private void btnToys_Click(object sender, EventArgs e)
+        {
+            FormTOYS toys = new FormTOYS();
+            toys.Show();
+            this.Hide();
+        }
+
+        private void btnEssentials_Click(object sender, EventArgs e)
+        {
+
+            FormESSENTIALS essentials = new FormESSENTIALS();
+            essentials.Show();
+            this.Hide();
+        }
     }
 
 

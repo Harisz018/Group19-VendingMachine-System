@@ -87,12 +87,13 @@
             buttonAdd1.BackColor = Color.Purple;
             buttonAdd1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonAdd1.ForeColor = Color.White;
-            buttonAdd1.Location = new Point(290, 203);
+            buttonAdd1.Location = new Point(291, 199);
             buttonAdd1.Name = "buttonAdd1";
             buttonAdd1.Size = new Size(80, 30);
             buttonAdd1.TabIndex = 106;
             buttonAdd1.Text = "ADD";
             buttonAdd1.UseVisualStyleBackColor = false;
+            buttonAdd1.Click += buttonAdd1_Click;
             // 
             // pxBoxCart
             // 
@@ -103,6 +104,7 @@
             pxBoxCart.SizeMode = PictureBoxSizeMode.Zoom;
             pxBoxCart.TabIndex = 104;
             pxBoxCart.TabStop = false;
+            pxBoxCart.Click += pxBoxCart_Click;
             // 
             // btnAdd8
             // 
@@ -115,6 +117,7 @@
             btnAdd8.TabIndex = 103;
             btnAdd8.Text = "ADD";
             btnAdd8.UseVisualStyleBackColor = false;
+            btnAdd8.Click += btnAdd8_Click;
             // 
             // labelPrice8
             // 
@@ -147,6 +150,7 @@
             btnAdd7.TabIndex = 100;
             btnAdd7.Text = "ADD";
             btnAdd7.UseVisualStyleBackColor = false;
+            btnAdd7.Click += btnAdd7_Click;
             // 
             // labelPrice7
             // 
@@ -199,6 +203,7 @@
             btnAdd6.TabIndex = 97;
             btnAdd6.Text = "ADD";
             btnAdd6.UseVisualStyleBackColor = false;
+            btnAdd6.Click += btnAdd6_Click;
             // 
             // labelPrice6
             // 
@@ -223,9 +228,9 @@
             // pictureBox7
             // 
             pictureBox7.Image = Properties.Resources.dishwash;
-            pictureBox7.Location = new Point(375, 228);
+            pictureBox7.Location = new Point(373, 237);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(130, 148);
+            pictureBox7.Size = new Size(132, 139);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox7.TabIndex = 74;
             pictureBox7.TabStop = false;
@@ -235,12 +240,13 @@
             btnAdd5.BackColor = Color.Purple;
             btnAdd5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd5.ForeColor = Color.White;
-            btnAdd5.Location = new Point(280, 405);
+            btnAdd5.Location = new Point(282, 405);
             btnAdd5.Name = "btnAdd5";
             btnAdd5.Size = new Size(80, 30);
             btnAdd5.TabIndex = 94;
             btnAdd5.Text = "ADD";
             btnAdd5.UseVisualStyleBackColor = false;
+            btnAdd5.Click += btnAdd5_Click;
             // 
             // labelPrice5
             // 
@@ -277,12 +283,13 @@
             btnAdd4.BackColor = Color.Purple;
             btnAdd4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd4.ForeColor = Color.White;
-            btnAdd4.Location = new Point(658, 203);
+            btnAdd4.Location = new Point(658, 205);
             btnAdd4.Name = "btnAdd4";
             btnAdd4.Size = new Size(80, 30);
             btnAdd4.TabIndex = 91;
             btnAdd4.Text = "ADD";
             btnAdd4.UseVisualStyleBackColor = false;
+            btnAdd4.Click += btnAdd4_Click;
             // 
             // labelPrice4
             // 
@@ -319,12 +326,13 @@
             btnAdd3.BackColor = Color.Purple;
             btnAdd3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd3.ForeColor = Color.White;
-            btnAdd3.Location = new Point(543, 202);
+            btnAdd3.Location = new Point(543, 203);
             btnAdd3.Name = "btnAdd3";
             btnAdd3.Size = new Size(80, 30);
             btnAdd3.TabIndex = 88;
             btnAdd3.Text = "ADD";
             btnAdd3.UseVisualStyleBackColor = false;
+            btnAdd3.Click += btnAdd3_Click;
             // 
             // labelPrice3
             // 
@@ -361,12 +369,13 @@
             btnAdd2.BackColor = Color.Purple;
             btnAdd2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd2.ForeColor = Color.White;
-            btnAdd2.Location = new Point(406, 202);
+            btnAdd2.Location = new Point(406, 200);
             btnAdd2.Name = "btnAdd2";
             btnAdd2.Size = new Size(80, 30);
             btnAdd2.TabIndex = 85;
             btnAdd2.Text = "ADD";
             btnAdd2.UseVisualStyleBackColor = false;
+            btnAdd2.Click += btnAdd2_Click;
             // 
             // labelPrice2
             // 
@@ -391,7 +400,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.soap;
-            pictureBox2.Location = new Point(389, 56);
+            pictureBox2.Location = new Point(391, 56);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(120, 107);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -402,7 +411,7 @@
             // 
             labelPrice.AutoSize = true;
             labelPrice.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPrice.Location = new Point(299, 185);
+            labelPrice.Location = new Point(299, 182);
             labelPrice.Name = "labelPrice";
             labelPrice.Size = new Size(63, 19);
             labelPrice.TabIndex = 82;
@@ -412,7 +421,7 @@
             // 
             lbltissue.AutoSize = true;
             lbltissue.Font = new Font("Microsoft YaHei UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbltissue.Location = new Point(294, 165);
+            lbltissue.Location = new Point(294, 164);
             lbltissue.Name = "lbltissue";
             lbltissue.Size = new Size(79, 19);
             lbltissue.TabIndex = 81;
@@ -421,7 +430,7 @@
             // picBxLip
             // 
             picBxLip.Image = Properties.Resources.tissuebox;
-            picBxLip.Location = new Point(273, 73);
+            picBxLip.Location = new Point(277, 67);
             picBxLip.Name = "picBxLip";
             picBxLip.Size = new Size(116, 93);
             picBxLip.SizeMode = PictureBoxSizeMode.Zoom;
@@ -482,6 +491,7 @@
             picBoxHome.SizeMode = PictureBoxSizeMode.Zoom;
             picBoxHome.TabIndex = 35;
             picBoxHome.TabStop = false;
+            picBoxHome.Click += picBoxHome_Click_1;
             // 
             // btnToys
             // 
